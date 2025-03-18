@@ -11,7 +11,7 @@ pipeline {
 //             }
             stage('Build') {
                 steps {
-                    build 'PES1UG22SS682-1'
+                    build 'PES1UG22CSS682-1'
                     sh 'g++ some_program/hi.cpp -o some_program/hi'
                 }
             }
